@@ -1,0 +1,27 @@
+#principale{
+    height: 100%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbar{
+    height: 3em;
+    text-align: center;
+}
+
+.topbar img{
+    height: 40px;
+}
+
+.title{
+    text-align: center;
+}
+
+.introduction {
+    color: #0baf0b;
+    background-color: #ffff0054;
+    margin: 0%;
+    border-top: solid #dbdb00;
+    text-align: center;
+}
