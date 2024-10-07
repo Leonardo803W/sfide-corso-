@@ -54,8 +54,7 @@ console.log(x)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-myName = "Riganelli"
-console.log(myName)
+//myName = "Riganelli"
 //siccome che sopra la variabile e definita con const, nella console apparira un messagio di errore, poiche la variabile const non puo essere modificata
 
 /* ESERCIZIO 6
@@ -77,6 +76,6 @@ console.log(differenza)
 let name1 = "john"
 let name2 = "John"
 console.log(name1 === name2)
-console.log(!(name1 === name2))
-
-
+let result = name2.toLowerCase();
+console.log(result)
+console.log(name1 === result)
