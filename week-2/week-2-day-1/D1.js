@@ -11,6 +11,7 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
+/* SCRIVI QUI LA TUA RISPOSTA */
 /* 
   i principali tipi di dati che possono essere inseriti sono tipi numerici, in cui
   vi si inseriscono i numeri, le stringhe che permottono di inserire parole o
@@ -25,55 +26,46 @@ REGOLE
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* 
-  const myName = "Leo" 
-  console.log(myName)
-*/
+/* SCRIVI QUI LA TUA RISPOSTA */
+const myName = "Leo" 
+console.log(myName)
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* 
-  let numero1 = 12
-  let numero2 = 20
-  let sum = numero1 + numero2
-  console.log(sum)
-*/
-
+/* SCRIVI QUI LA TUA RISPOSTA */
+let numero1 = 12
+let numero2 = 20
+let sum = numero1 + numero2
+console.log(sum)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/* 
-  let x = 12 
-  console.log(x)
-*/
-
+/* SCRIVI QUI LA TUA RISPOSTA */
+let x = 12 
+console.log(x)
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* 
-  myName = "Riganelli"
-  console.log(myName)
-  //siccome che sopra la variabile e definita con const, nella console apparira un messagio di errore, poiche la variabile const non puo essere modificata
-*/
-
+/* SCRIVI QUI LA TUA RISPOSTA */
+myName = "Riganelli"
+console.log(myName)
+//siccome che sopra la variabile e definita con const, nella console apparira un messagio di errore, poiche la variabile const non puo essere modificata
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* 
-  let numero3 = 4
-  let differenza = x - numero3
-  console.log(differenza)
-*/
-
+/* SCRIVI QUI LA TUA RISPOSTA */
+let numero3 = 4
+let differenza = x - numero3
+console.log(differenza)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -81,12 +73,10 @@ REGOLE
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* 
-  let name1 = "john"
-  let name2 = "John"
-  console.log(name1 === name2)
-  console.log(!(name1 === name2)) 
-*/
-
+/* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john"
+let name2 = "John"
+console.log(name1 === name2)
+console.log(!(name1 === name2))
 
 
