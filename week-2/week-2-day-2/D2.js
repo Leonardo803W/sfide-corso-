@@ -182,14 +182,15 @@ console.log(me)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log(me.lastName.slice(3))
+delete me.lastName
+console.log(me)
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-me.skills.splice(0)
+me.skills.pop()
 console.log(me);
 
 /* ESERCIZIO 14
