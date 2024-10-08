@@ -123,7 +123,8 @@ if(numero2 < numero1){
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let verifica = 5
+console.log(("il valore e un number o string?") + ' ' + typeof verifica);
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
