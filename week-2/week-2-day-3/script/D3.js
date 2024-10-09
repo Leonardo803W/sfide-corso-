@@ -153,41 +153,37 @@ const eyeColor = {
   Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
 */
 
-for(let i = 0; i < starWarsCharacters.length; i++)
+for(let i = 0; starWarsCharacters.length; i++)
 {
-    switch(eye_color)
-    {
-      case 'blue':
-        if(starWarsCharacters[i].eye_color === 'blue')
-        eyeColor.blue.push(starWarsCharacters[i].eye_color)
-        break;
+  switch(starWarsCharacters[i].eye_color)
+{
+  case starWarsCharacters.eye_color === 'blue':
+  eyeColor.blue.push(starWarsCharacters.eye_color)
+  break
 
-      case 'yellow':
-        if(starWarsCharacters[i].eye_color === 'yellow')
-        eyeColor.yellow.push(starWarsCharacters[i].eye_color)
-        break;
-    
-      case 'brown':
-        if(starWarsCharacters[i].eye_color === 'brown')
-        eyeColor.brown.push(starWarsCharacters[i].eye_color)
-        break;
-    
-      case 'red':
-        if(starWarsCharacters[i].eye_color === 'red')
-        eyeColor.red.push(starWarsCharacters[i].eye_color)
-        break;
+  case starWarsCharacters.eye_color === 'yellow':
+  eyeColor.yellow.push(starWarsCharacters.eye_color)
+  break
 
-      case 'blue-gray':
-        if(starWarsCharacters[i].eye_color === 'blue-gray')
-        eyeColor["blue-gray"].push(starWarsCharacters[i].eye_color)
-        break;
-    }
+  case starWarsCharacters.eye_color === 'brown':
+  eyeColor.brown.push(starWarsCharacters.eye_color)
+  break
+
+  case starWarsCharacters.eye_color === 'red':
+  eyeColor.push.red(starWarsCharacters.eye_color)
+  break
+
+  case starWarsCharacters.eye_color === 'blue-gray':
+  eyeColor["blue-gray"].push(starWarsCharacters.eye_color)
+  break
+}
 }
 console.log(eyeColor)
 
 /* ESERCIZIO 6
   Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
 */
+
 
 /* ESERCIZIO 7
   Crea uno if/else statement per rivelare la tipologia di carico, utilizzando la massa totale, di un'ipotetica astronave contenente i personaggi dell'array "starWarsCharacters".
